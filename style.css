@@ -1,0 +1,94 @@
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    align-items: center;
+    justify-content: center;    
+}
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #add960d2;
+    text-align: center;
+    font-size: 30px; 
+    padding: 1em 0;
+    height: 80px; 
+    font-family: 'Poppins', sans-serif;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);    
+}
+.logo-container {
+    position: absolute;
+    top: 50%;
+    left: 20px;
+    transform: translateY(-50%);
+}
+.logo-container img {
+    max-height: 150px; 
+    width: auto;
+    display: block;
+}
+h2 {
+    font-size: 50px;
+    color: #b329e5;
+    margin: 10px 0;
+}
+/*MAIN CSS CODE FOR QR CODE */
+h1 {
+    color: #333;
+    font-size: 50px;
+    margin: 200px 100px 10px;
+    width: 100%;
+}
+input {
+    padding: 8px;
+    margin: 5px 10px;
+    width: 300px;    
+}
+button {
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    width: 300px;
+    margin: 5px 10px;
+}
+button:hover {
+    background-color: #45a049;
+}
+#img {
+    margin-top: 20px;
+}
+/*     */
+.follow-us {
+    text-align: center;
+    padding: 20px;
+    margin-top: 500px; 
+    background-color: #12dd82;
+    width: 100%;    
+}
+h3 {
+    font-size: 40px;
+    color: #322c2c;
+    margin: 10px 0; 
+    font-weight: bold;
+}
+.social-icons {
+    font-size: 50px;
+}
+.icon-link {
+    color: #d73535;
+    margin: 0 10px;
+    text-decoration: none;
+}
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: auto;
+    width: 100%;
+}
